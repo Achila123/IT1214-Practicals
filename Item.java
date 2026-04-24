@@ -4,7 +4,7 @@ public class Item {
     private int quantity;
     private double price;
 
-    // Constructor
+    
     public Item(String itemId, String itemName, int quantity, double price) {
         this.itemId = itemId;
         this.itemName = itemName;
@@ -12,7 +12,7 @@ public class Item {
         this.price = price;
     }
 
-    // Getters
+    
     public String getItemId() {
         return itemId;
     }
@@ -29,13 +29,12 @@ public class Item {
         return price;
     }
 
-    // Setter for quantity
+ 
     public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
 
-    // toString method
-    @Override
+  
     public String toString() {
         return "ID: " + itemId + ", Name: " + itemName +
                ", Quantity: " + quantity + ", Price: " + price;
