@@ -16,7 +16,7 @@ public class Warehouse {
 
             System.out.print("Enter choice: ");
             int choice = sc.nextInt();
-            sc.nextLine(); // clear buffer
+            sc.nextLine(); 
 
             switch (choice) {
                 case 1:
